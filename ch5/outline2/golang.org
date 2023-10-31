@@ -1,0 +1,1131 @@
+reaching url: golang.org
+<html [{ lang en} { data-theme auto}]>
+  <head []>
+    <link [{ rel preconnect} { href https://www.googletagmanager.com}]>
+    <script []>
+    </script>
+    <meta [{ charset utf-8}]>
+    <meta [{ name viewport} { content width=device-width, initial-scale=1}]>
+    <meta [{ name theme-color} { content #00add8}]>
+    <link [{ rel stylesheet} { href https://fonts.googleapis.com/css?family=Material+Icons}]>
+    <link [{ rel stylesheet} { href /css/styles.css}]>
+    <link [{ rel icon} { href /images/favicon-gopher.png} { sizes any}]>
+    <link [{ rel apple-touch-icon} { href /images/favicon-gopher-plain.png}]>
+    <link [{ rel icon} { href /images/favicon-gopher.svg} { type image/svg+xml}]>
+    <script []>
+    </script>
+    <script [{ src /js/site.js}]>
+    <meta [{ name og:url} { content https://go.dev/}]>
+    <meta [{ name og:title} { content The Go Programming Language}]>
+    <title []>
+    </title>
+    <meta [{ name og:description} { content Go is an open source programming language that makes it simple to build secure, scalable systems.}]>
+    <meta [{ name description} { content Go is an open source programming language that makes it simple to build secure, scalable systems.}]>
+    <meta [{ name og:image} { content https://go.dev/doc/gopher/gopher5logo.jpg}]>
+    <meta [{ name twitter:image} { content https://go.dev/doc/gopher/gopherbelly300.jpg}]>
+    <meta [{ name twitter:card} { content summary}]>
+    <meta [{ name twitter:site} { content @golang}]>
+  </head>
+  <body [{ class Site}]>
+    <noscript []>
+    </noscript>
+    <header [{ class Site-header js-siteHeader}]>
+      <div [{ class Header Header--dark}]>
+        <nav [{ class Header-nav}]>
+          <a [{ href /}]>
+            <img [{ class js-headerLogo Header-logo} { src /images/go-logo-white.svg} { alt Go}]>
+          </a>
+          <div [{ class skip-navigation-wrapper}]>
+            <a [{ class skip-to-content-link} { aria-label Skip to main content} { href #main-content}]>
+            </a>
+          </div>
+          <div [{ class Header-rightContent}]>
+            <ul [{ class Header-menu}]>
+              <li [{ class Header-menuItem }]>
+                <a [{ href #} { class js-desktop-menu-hover} { aria-label Why Go} { aria-describedby dropdown-description}]>
+                  <i [{ class material-icons} { aria-hidden true}]>
+                  </i>
+                </a>
+                <div [{ class screen-reader-only} { id dropdown-description} { hidden }]>
+                </div>
+                <ul [{ class Header-submenu js-desktop-submenu-hover} { aria-label submenu}]>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /solutions/case-studies}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /solutions/use-cases}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /security/}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li [{ class Header-menuItem }]>
+                <a [{ href /learn/} { aria-label Learn} { aria-describedby dropdown-description}]>
+                </a>
+                <div [{ class screen-reader-only} { id dropdown-description} { hidden }]>
+                </div>
+              </li>
+              <li [{ class Header-menuItem }]>
+                <a [{ href #} { class js-desktop-menu-hover} { aria-label Docs} { aria-describedby dropdown-description}]>
+                  <i [{ class material-icons} { aria-hidden true}]>
+                  </i>
+                </a>
+                <div [{ class screen-reader-only} { id dropdown-description} { hidden }]>
+                </div>
+                <ul [{ class Header-submenu js-desktop-submenu-hover} { aria-label submenu}]>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /doc/effective_go}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /doc}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href https://pkg.go.dev/std}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /doc/devel/release}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                </ul>
+              </li>
+              <li [{ class Header-menuItem }]>
+                <a [{ href https://pkg.go.dev} { aria-label Packages} { aria-describedby dropdown-description}]>
+                </a>
+                <div [{ class screen-reader-only} { id dropdown-description} { hidden }]>
+                </div>
+              </li>
+              <li [{ class Header-menuItem }]>
+                <a [{ href #} { class js-desktop-menu-hover} { aria-label Community} { aria-describedby dropdown-description}]>
+                  <i [{ class material-icons} { aria-hidden true}]>
+                  </i>
+                </a>
+                <div [{ class screen-reader-only} { id dropdown-description} { hidden }]>
+                </div>
+                <ul [{ class Header-submenu js-desktop-submenu-hover} { aria-label submenu}]>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /talks/}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href https://www.meetup.com/pro/go}]>
+                        <i [{ class material-icons}]>
+                        </i>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href https://github.com/golang/go/wiki/Conferences}]>
+                        <i [{ class material-icons}]>
+                        </i>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /blog}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                      <a [{ href /help}]>
+                      </a>
+                    </div>
+                    <p []>
+                    </p>
+                  </li>
+                  <li [{ class Header-submenuItem}]>
+                    <div []>
+                    </div>
+                    <p []>
+                    <div [{ class Header-socialIcons}]>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with google-groups (Opens in new window)} { href https://groups.google.com/g/golang-nuts}]>
+                        <img [{ src /images/logos/social/google-groups.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with github (Opens in new window)} { href https://github.com/golang}]>
+                        <img [{ src /images/logos/social/github.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with twitter (Opens in new window)} { href https://twitter.com/golang}]>
+                        <img [{ src /images/logos/social/twitter.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with reddit (Opens in new window)} { href https://www.reddit.com/r/golang/}]>
+                        <img [{ src /images/logos/social/reddit.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with slack (Opens in new window)} { href https://invite.slack.golangbridge.org/}]>
+                        <img [{ src /images/logos/social/slack.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { aria-label Get connected with stack-overflow (Opens in new window)} { href https://stackoverflow.com/tags/go}]>
+                        <img [{ src /images/logos/social/stack-overflow.svg}]>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <button [{ class Header-navOpen js-headerMenuButton Header-navOpen--white} { aria-label Open navigation.}]>
+            </button>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <aside [{ class NavigationDrawer js-header}]>
+      <nav [{ class NavigationDrawer-nav}]>
+        <div [{ class NavigationDrawer-header}]>
+          <a [{ href /}]>
+            <img [{ class NavigationDrawer-logo} { src /images/go-logo-blue.svg} { alt Go.}]>
+          </a>
+        </div>
+        <ul [{ class NavigationDrawer-list}]>
+          <li [{ class NavigationDrawer-listItem js-mobile-subnav-trigger  NavigationDrawer-hasSubnav}]>
+            <a [{ href #}]>
+              <span []>
+              </span>
+              <i [{ class material-icons}]>
+              </i>
+            </a>
+            <div [{ class NavigationDrawer NavigationDrawer-submenuItem}]>
+              <nav [{ class NavigationDrawer-nav}]>
+                <div [{ class NavigationDrawer-header}]>
+                  <a [{ href #}]>
+                    <i [{ class material-icons}]>
+                    </i>
+                  </a>
+                </div>
+                <ul [{ class NavigationDrawer-list}]>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /solutions/case-studies}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /solutions/use-cases}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /security/}]>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </li>
+          <li [{ class NavigationDrawer-listItem }]>
+            <a [{ href /learn/}]>
+            </a>
+          </li>
+          <li [{ class NavigationDrawer-listItem js-mobile-subnav-trigger  NavigationDrawer-hasSubnav}]>
+            <a [{ href #}]>
+              <span []>
+              </span>
+              <i [{ class material-icons}]>
+              </i>
+            </a>
+            <div [{ class NavigationDrawer NavigationDrawer-submenuItem}]>
+              <nav [{ class NavigationDrawer-nav}]>
+                <div [{ class NavigationDrawer-header}]>
+                  <a [{ href #}]>
+                    <i [{ class material-icons}]>
+                    </i>
+                  </a>
+                </div>
+                <ul [{ class NavigationDrawer-list}]>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /doc/effective_go}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /doc}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href https://pkg.go.dev/std}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /doc/devel/release}]>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </li>
+          <li [{ class NavigationDrawer-listItem }]>
+            <a [{ href https://pkg.go.dev}]>
+            </a>
+          </li>
+          <li [{ class NavigationDrawer-listItem js-mobile-subnav-trigger  NavigationDrawer-hasSubnav}]>
+            <a [{ href #}]>
+              <span []>
+              </span>
+              <i [{ class material-icons}]>
+              </i>
+            </a>
+            <div [{ class NavigationDrawer NavigationDrawer-submenuItem}]>
+              <nav [{ class NavigationDrawer-nav}]>
+                <div [{ class NavigationDrawer-header}]>
+                  <a [{ href #}]>
+                    <i [{ class material-icons}]>
+                    </i>
+                  </a>
+                </div>
+                <ul [{ class NavigationDrawer-list}]>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /talks/}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href https://www.meetup.com/pro/go}]>
+                      <i [{ class material-icons}]>
+                      </i>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href https://github.com/golang/go/wiki/Conferences}]>
+                      <i [{ class material-icons}]>
+                      </i>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /blog}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <a [{ href /help}]>
+                    </a>
+                  </li>
+                  <li [{ class NavigationDrawer-listItem}]>
+                    <div []>
+                    </div>
+                    <div [{ class Header-socialIcons}]>
+                      <a [{ class Header-socialIcon} { href https://groups.google.com/g/golang-nuts}]>
+                        <img [{ src /images/logos/social/google-groups.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { href https://github.com/golang}]>
+                        <img [{ src /images/logos/social/github.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { href https://twitter.com/golang}]>
+                        <img [{ src /images/logos/social/twitter.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { href https://www.reddit.com/r/golang/}]>
+                        <img [{ src /images/logos/social/reddit.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { href https://invite.slack.golangbridge.org/}]>
+                        <img [{ src /images/logos/social/slack.svg}]>
+                      </a>
+                      <a [{ class Header-socialIcon} { href https://stackoverflow.com/tags/go}]>
+                        <img [{ src /images/logos/social/stack-overflow.svg}]>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+    <div [{ class NavigationDrawer-scrim js-scrim} { role presentation}]>
+    <main [{ class SiteContent SiteContent--default} { id main-content}]>
+      <section [{ class Hero bluebg}]>
+        <div [{ class Hero-gridContainer}]>
+          <div [{ class Hero-blurb}]>
+            <h1 []>
+            </h1>
+            <ul [{ class Hero-blurbList}]>
+              <li []>
+                <svg [{ width 12} { height 10} { viewBox 0 0 12 10} { fill none} { xmlns http://www.w3.org/2000/svg}]>
+                  <path [{ d M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z} { fill white} { fill-opacity 0.87}]>
+                  </path>
+                </svg>
+              </li>
+              <li []>
+                <svg [{ width 12} { height 10} { viewBox 0 0 12 10} { fill none} { xmlns http://www.w3.org/2000/svg}]>
+                  <path [{ d M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z} { fill white} { fill-opacity 0.87}]>
+                  </path>
+                </svg>
+              </li>
+              <li []>
+                <svg [{ width 12} { height 10} { viewBox 0 0 12 10} { fill none} { xmlns http://www.w3.org/2000/svg}]>
+                  <path [{ d M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z} { fill white} { fill-opacity 0.87}]>
+                  </path>
+                </svg>
+              </li>
+              <li []>
+                <svg [{ width 12} { height 10} { viewBox 0 0 12 10} { fill none} { xmlns http://www.w3.org/2000/svg}]>
+                  <path [{ d M10.8519 0.52594L3.89189 7.10404L1.14811 4.51081L0 5.59592L3.89189 9.27426L12 1.61105L10.8519 0.52594Z} { fill white} { fill-opacity 0.87}]>
+                  </path>
+                </svg>
+              </li>
+            </ul>
+          </div>
+          <div [{ class Hero-actions}]>
+            <div [{ data-version } { class js-latestGoVersion}]>
+              <a [{ class Primary} { href /learn/} { aria-label Get Started} { aria-describedby getStarted-description} { role button}]>
+              </a>
+              <a [{ class Secondary js-downloadBtn} { href /dl} { aria-label Download} { aria-describedby download-description} { role button}]>
+              </a>
+              <div [{ class screen-reader-only} { id getStarted-description} { hidden }]>
+              </div>
+              <div [{ class screen-reader-only} { id download-description} { hidden }]>
+              </div>
+            </div>
+            <div [{ class Hero-footnote}]>
+              <p []>
+                <a [{ class js-downloadWin}]>
+                </a>
+                <a [{ class js-downloadMac}]>
+                </a>
+                <a [{ class js-downloadLinux}]>
+                </a>
+                <a [{ href /dl/} { aria-describedby newwindow-description}]>
+                </a>
+              </p>
+              <p []>
+                <code []>
+                </code>
+                <a [{ href /dl} { aria-describedby newwindow-description}]>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div [{ class screen-reader-only} { id newwindow-description} { hidden }]>
+          </div>
+          <div [{ class Hero-gopher}]>
+            <img [{ class Hero-gopherLadder} { src /images/gophers/ladder.svg} { alt Go Gopher climbing a ladder.}]>
+          </div>
+        </div>
+      </section>
+      <section [{ class WhoUses}]>
+        <div [{ class WhoUses-gridContainer}]>
+          <div [{ class WhoUses-header}]>
+            <h2 [{ class WhoUses-headerH2}]>
+            </h2>
+            <p [{ class WhoUses-subheader}]>
+              <a [{ href /solutions/} { class WhoUsesCaseStudyList-seeAll} { aria-describedby newwindow-description}]>
+              </a>
+            </p>
+          </div>
+          <div [{ class WhoUsesCaseStudyList}]>
+            <ul [{ class WhoUsesCaseStudyList-gridContainer}]>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href /solutions/google/} { aria-label View CaseStudy of Google, (opens in new window)} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/google.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                  <p []>
+                  </p>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href /solutions/paypal} { aria-label View CaseStudy of PayPal, (opens in new window)} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/paypal.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                  <p []>
+                  </p>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href /solutions/americanexpress} { aria-label View CaseStudy of American Express, (opens in new window)} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/american-express.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                  <p []>
+                  </p>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href /solutions/mercadolibre} { aria-label View CaseStudy of MercadoLibre, (opens in new window)} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/mercadolibre_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                  <p []>
+                  </p>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://bitly.com/blog/why-we-write-everything-in-go/?utm_source=go-dev&utm_medium=referral&utm_campaign=go-dev&utm_content=case-study} { aria-label View CaseStudy of Bitly, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/bitly.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://medium.com/capital-one-tech/a-serverless-and-go-journey-credit-offers-api-74ef1f9fde7f} { aria-label View CaseStudy of Capital One, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/capitalone_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://www.cockroachlabs.com/blog/why-go-was-the-right-choice-for-cockroachdb/} { aria-label View CaseStudy of Cockroach Labs, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/cockroach.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://blogs.dropbox.com/tech/2014/07/open-sourcing-our-go-libraries/} { aria-label View CaseStudy of Dropbox, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/dropbox.png} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://blog.cloudflare.com/graceful-upgrades-in-go/} { aria-label View CaseStudy of Cloudflare, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/cloudflare_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://entgo.io/blog/2019/10/03/introducing-ent/} { aria-label View CaseStudy of Facebook, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/meta_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://cloudblogs.microsoft.com/opensource/2018/02/21/go-lang-brian-ketelsen-explains-fast-growth/} { aria-label View CaseStudy of Microsoft, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/microsoft_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://medium.com/tech-at-wildlife-studios/pitaya-wildlifes-golang-go-af57865f7a11} { aria-label View CaseStudy of Wildlife Studios, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/wildlife_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://medium.com/netflix-techblog/application-data-caching-using-ssds-5bf25df851ef} { aria-label View CaseStudy of Netflix, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/netflix.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://technology.riotgames.com/news/leveraging-golang-game-development-and-operations} { aria-label View CaseStudy of Riot Games, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/riot_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://www.zdnet.com/article/salesforce-why-we-ditched-python-for-googles-go-language-in-einstein-analytics/} { aria-label View CaseStudy of Salesforce, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/salesforce.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://blog.twitch.tv/en/2016/07/05/gos-march-to-low-latency-gc-a6fa96f06eb7/} { aria-label View CaseStudy of Twitch, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/twitch.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://blog.twitter.com/engineering/en_us/a/2015/handling-five-billion-sessions-a-day-in-real-time.html} { aria-label View CaseStudy of Twitter, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/twitter.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+              <li [{ class WhoUsesCaseStudyList-caseStudy}]>
+                <a [{ href https://eng.uber.com/aresdb/} { aria-label View CaseStudy of Uber, (opens in new window)} { target _blank} { rel noopener} { class WhoUsesCaseStudyList-caseStudyLink}]>
+                  <img [{ loading lazy} { height 48} { width 30%} { src /images/logos/uber_light.svg} { class WhoUsesCaseStudyList-logo} { alt }]>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section [{ class TestimonialsGo}]>
+        <div [{ class GoCarousel}]>
+          <div [{ class GoCarousel-controlsContainer}]>
+            <div [{ class GoCarousel-wrapper}]>
+              <ul [{ class js-testimonialsGoQuotes TestimonialsGo-quotes}]>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide0}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                        <strong []>
+                        </strong>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide1}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                        <strong []>
+                        </strong>
+                        <strong []>
+                        </strong>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide2}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                        <strong []>
+                        </strong>
+                        <strong []>
+                        </strong>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide3}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                        <strong []>
+                        </strong>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide4}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                        <strong []>
+                        </strong>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li [{ class TestimonialsGo-quoteGroup GoCarousel-slide} { id quote_slide5}]>
+                  <div [{ class TestimonialsGo-quoteSingleItem}]>
+                    <div [{ class TestimonialsGo-quoteSection}]>
+                      <p [{ class TestimonialsGo-quote}]>
+                      </p>
+                      <div [{ class TestimonialsGo-author}]>
+                        <span [{ class NoWrapSpan}]>
+                        <span [{ class NoWrapSpan}]>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <button [{ class js-testimonialsPrev GoCarousel-controlPrev} { hidden }]>
+              <i [{ class GoCarousel-icon material-icons}]>
+              </i>
+            </button>
+            <button [{ class js-testimonialsNext GoCarousel-controlNext}]>
+              <i [{ class GoCarousel-icon material-icons}]>
+              </i>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section [{ class Playground}]>
+        <div [{ class Playground-gridContainer}]>
+          <div [{ class Playground-headerContainer}]>
+            <h2 [{ class HomeSection-header}]>
+            </h2>
+          </div>
+          <div [{ class Playground-inputContainer}]>
+            <div [{ class Playground-preContainer}]>
+            </div>
+            <textarea [{ class Playground-input js-playgroundCodeEl} { spellcheck false} { aria-label Try Go} { aria-describedby editor-description} { id code}]>
+            </textarea>
+          </div>
+          <div [{ class screen-reader-only} { id editor-description} { hidden }]>
+          </div>
+          <div [{ class Playground-outputContainer js-playgroundOutputEl}]>
+            <pre [{ class Playground-output}]>
+              <noscript []>
+              </noscript>
+            </pre>
+          </div>
+          <div [{ class Playground-controls}]>
+            <select [{ class Playground-selectExample js-playgroundToysEl} { aria-label Code examples}]>
+              <option [{ value hello.go}]>
+              </option>
+              <option [{ value life.go}]>
+              </option>
+              <option [{ value fib.go}]>
+              </option>
+              <option [{ value peano.go}]>
+              </option>
+              <option [{ value pi.go}]>
+              </option>
+              <option [{ value sieve.go}]>
+              </option>
+              <option [{ value solitaire.go}]>
+              </option>
+              <option [{ value tree.go}]>
+              </option>
+            </select>
+            <div [{ class Playground-buttons}]>
+              <button [{ class Button Button--primary js-playgroundRunEl Playground-runButton} { title Run this code [shift-enter]}]>
+              </button>
+              <div [{ class Playground-secondaryButtons}]>
+                <button [{ class Button js-playgroundShareEl Playground-button} { title Share in Go Playground}]>
+                </button>
+                <a [{ class Button tour Playground-button} { href /tour/} { title Tour Go from your browser}]>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section [{ class WhyGo}]>
+        <div [{ class WhyGo-gridContainer}]>
+          <div [{ class WhyGo-header}]>
+            <h2 [{ class WhyGo-headerH2}]>
+            </h2>
+            <p [{ class WhyGo-subheader}]>
+            </p>
+          </div>
+          <ul [{ class WhyGo-reasons}]>
+            <li [{ class WhyGo-reason}]>
+              <div [{ class WhyGo-reasonDetails}]>
+                <div [{ class WhyGo-reasonIcon} { role presentation}]>
+                  <img [{ class DarkMode-img} { src /images/icons/sphere-dark.svg} { alt Sphere}]>
+                  <img [{ class LightMode-img} { src /images/icons/sphere.svg} { alt Sphere}]>
+                </div>
+                <div [{ class WhyGo-reasonText}]>
+                  <h3 [{ class WhyGo-reasonTitle}]>
+                  </h3>
+                  <p []>
+                  </p>
+                </div>
+              </div>
+              <div [{ class WhyGo-reasonFooter}]>
+                <div [{ class WhyGo-reasonPackages}]>
+                  <div [{ class WhyGo-reasonPackagesHeader}]>
+                    <img [{ src /images/icons/package.svg} { alt Packages.}]>
+                  </div>
+                  <ul [{ class WhyGo-reasonPackagesList}]>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://cloud.google.com/go/home} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://aws.amazon.com/sdk-for-go/} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/Azure/azure-sdk-for-go} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div [{ class WhyGo-reasonLearnMoreLink}]>
+                  <a [{ href /solutions/cloud/} { aria-describedby newwindow-description}]>
+                    <i [{ class material-icons WhyGo-forwardArrowIcon} { aria-hidden true}]>
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li [{ class WhyGo-reason}]>
+              <div [{ class WhyGo-reasonDetails}]>
+                <div [{ class WhyGo-reasonIcon} { role presentation}]>
+                  <img [{ class DarkMode-img} { src /images/icons/command-folder-dark.svg} { alt Command Line}]>
+                  <img [{ class LightMode-img} { src /images/icons/command-folder.svg} { alt Command Line}]>
+                </div>
+                <div [{ class WhyGo-reasonText}]>
+                  <h3 [{ class WhyGo-reasonTitle}]>
+                  </h3>
+                  <p []>
+                  </p>
+                </div>
+              </div>
+              <div [{ class WhyGo-reasonFooter}]>
+                <div [{ class WhyGo-reasonPackages}]>
+                  <div [{ class WhyGo-reasonPackagesHeader}]>
+                    <img [{ src /images/icons/package.svg} { alt Packages.}]>
+                  </div>
+                  <ul [{ class WhyGo-reasonPackagesList}]>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/spf13/cobra} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/spf13/viper} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/urfave/cli} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/go-delve/delve} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/chzyer/readline} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div [{ class WhyGo-reasonLearnMoreLink}]>
+                  <a [{ href /solutions/clis/} { aria-describedby newwindow-description}]>
+                    <i [{ class material-icons WhyGo-forwardArrowIcon} { aria-hidden true}]>
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li [{ class WhyGo-reason}]>
+              <div [{ class WhyGo-reasonDetails}]>
+                <div [{ class WhyGo-reasonIcon} { role presentation}]>
+                  <img [{ class DarkMode-img} { src /images/icons/code-dark.svg} { alt Code}]>
+                  <img [{ class LightMode-img} { src /images/icons/code.svg} { alt Code}]>
+                </div>
+                <div [{ class WhyGo-reasonText}]>
+                  <h3 [{ class WhyGo-reasonTitle}]>
+                  </h3>
+                  <p []>
+                  </p>
+                </div>
+              </div>
+              <div [{ class WhyGo-reasonFooter}]>
+                <div [{ class WhyGo-reasonPackages}]>
+                  <div [{ class WhyGo-reasonPackagesHeader}]>
+                    <img [{ src /images/icons/package.svg} { alt Packages.}]>
+                  </div>
+                  <ul [{ class WhyGo-reasonPackagesList}]>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href /pkg/net/http/} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href /pkg/html/template/} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/flosch/pongo2} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href /pkg/database/sql/} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/elastic/go-elasticsearch} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div [{ class WhyGo-reasonLearnMoreLink}]>
+                  <a [{ href /solutions/webdev/} { aria-describedby newwindow-description}]>
+                    <i [{ class material-icons WhyGo-forwardArrowIcon} { aria-hidden true}]>
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li [{ class WhyGo-reason}]>
+              <div [{ class WhyGo-reasonDetails}]>
+                <div [{ class WhyGo-reasonIcon} { role presentation}]>
+                  <img [{ class DarkMode-img} { src /images/icons/gear-dark.svg} { alt Sphere}]>
+                  <img [{ class LightMode-img} { src /images/icons/gear.svg} { alt Sphere}]>
+                </div>
+                <div [{ class WhyGo-reasonText}]>
+                  <h3 [{ class WhyGo-reasonTitle}]>
+                  </h3>
+                  <p []>
+                  </p>
+                </div>
+              </div>
+              <div [{ class WhyGo-reasonFooter}]>
+                <div [{ class WhyGo-reasonPackages}]>
+                  <div [{ class WhyGo-reasonPackagesHeader}]>
+                    <img [{ src /images/icons/package.svg} { alt Packages.}]>
+                  </div>
+                  <ul [{ class WhyGo-reasonPackagesList}]>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/open-telemetry/opentelemetry-go} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/istio/istio} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                    <li [{ class WhyGo-reasonPackage}]>
+                      <a [{ class WhyGo-reasonLink} { href https://github.com/urfave/cli} { target _blank} { rel noopener}]>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div [{ class WhyGo-reasonLearnMoreLink}]>
+                  <a [{ href /solutions/devops/} { aria-describedby newwindow-description}]>
+                    <i [{ class material-icons WhyGo-forwardArrowIcon} { aria-hidden true}]>
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li [{ class WhyGo-reason}]>
+              <div [{ class WhyGo-reasonShowMore}]>
+                <div [{ class WhyGo-reasonShowMoreImgWrapper}]>
+                  <img [{ class WhyGo-reasonShowMoreImg} { loading lazy} { height 148} { width 229} { src /images/gophers/biplane.svg} { alt Go Gopher is skateboarding.}]>
+                </div>
+                <div [{ class WhyGo-reasonShowMoreLink}]>
+                  <a [{ href /solutions/use-cases} { aria-describedby newwindow-description}]>
+                    <i [{ class material-icons
+              WhyGo-forwardArrowIcon} { aria-hidden true}]>
+                    </i>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section [{ class GettingStartedGo}]>
+        <div [{ class GettingStartedGo-gridContainer}]>
+          <div [{ class GettingStartedGo-header}]>
+            <h2 [{ class GettingStartedGo-headerH2}]>
+            </h2>
+            <p [{ class GettingStartedGo-headerDesc}]>
+            </p>
+            <div [{ class GettingStartedGo-ctas}]>
+              <a [{ class GettingStartedGo-primaryCta} { href /learn/} { aria-describedby newwindow-description}]>
+              </a>
+              <a [{ href /doc/install/} { aria-describedby newwindow-description}]>
+              </a>
+            </div>
+          </div>
+          <div [{ class GettingStartedGo-resourcesSection}]>
+            <ul [{ class GettingStartedGo-resourcesList}]>
+              <li [{ class GettingStartedGo-resourcesHeader}]>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href /learn#guided-learning-journeys} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href /learn#online-learning} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href /learn#featured-books} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href /learn#self-paced-labs} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+            </ul>
+            <ul [{ class GettingStartedGo-resourcesList}]>
+              <li [{ class GettingStartedGo-resourcesHeader}]>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href https://www.ardanlabs.com/} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href https://www.gopherguides.com/} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href https://bosssauce.it/services/training} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+              <li [{ class GettingStartedGo-resourceItem}]>
+                <a [{ href https://github.com/shijuvar/gokit/tree/master/training} { class GettingStartedGo-resourceItemTitle} { aria-describedby newwindow-description}]>
+                </a>
+                <div [{ class GettingStartedGo-resourceItemDescription}]>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <script [{ src /js/index.js} { defer }]>
+    </main>
+    <footer [{ class Site-footer}]>
+      <div [{ class Footer}]>
+        <div [{ class Container}]>
+          <div [{ class Footer-links}]>
+            <div [{ class Footer-linkColumn}]>
+              <a [{ href /solutions/} { class Footer-link Footer-link--primary} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /solutions/use-cases} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /solutions/case-studies} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+            </div>
+            <div [{ class Footer-linkColumn}]>
+              <a [{ href /learn/} { class Footer-link Footer-link--primary} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /play} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /tour/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://stackoverflow.com/questions/tagged/go?tab=Newest} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /help/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+            </div>
+            <div [{ class Footer-linkColumn}]>
+              <a [{ href https://pkg.go.dev} { class Footer-link Footer-link--primary} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /pkg/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://pkg.go.dev/about} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+            </div>
+            <div [{ class Footer-linkColumn}]>
+              <a [{ href /project} { class Footer-link Footer-link--primary} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /dl/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /blog/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://github.com/golang/go/issues} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /doc/devel/release} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /brand} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href /conduct} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+            </div>
+            <div [{ class Footer-linkColumn}]>
+              <a [{ href https://www.twitter.com/golang} { class Footer-link Footer-link--primary} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://www.twitter.com/golang} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://github.com/golang} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://invite.slack.golangbridge.org/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://reddit.com/r/golang} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://www.meetup.com/pro/go} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+              <a [{ href https://golangweekly.com/} { class Footer-link} { aria-describedby footer-description}]>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div [{ class screen-reader-only} { id footer-description} { hidden }]>
+      </div>
+      <div [{ class Footer}]>
+        <div [{ class Container Container--fullBleed}]>
+          <div [{ class Footer-bottom}]>
+            <img [{ class Footer-gopher} { src /images/gophers/pilot-bust.svg} { alt The Go Gopher}]>
+            <ul [{ class Footer-listRow}]>
+              <li [{ class Footer-listItem}]>
+                <a [{ href /copyright} { aria-describedby footer-description}]>
+                </a>
+              </li>
+              <li [{ class Footer-listItem}]>
+                <a [{ href /tos} { aria-describedby footer-description}]>
+                </a>
+              </li>
+              <li [{ class Footer-listItem}]>
+                <a [{ href http://www.google.com/intl/en/policies/privacy/} { aria-describedby footer-description} { target _blank} { rel noopener}]>
+                </a>
+              </li>
+              <li [{ class Footer-listItem}]>
+                <a [{ href /s/website-issue} { aria-describedby footer-description} { target _blank} { rel noopener}]>
+                </a>
+              </li>
+              <li [{ class Footer-listItem go-Footer-listItem}]>
+                <button [{ class go-Button go-Button--text go-Footer-toggleTheme js-toggleTheme} { aria-label Toggle theme}]>
+                  <img [{ data-value auto} { class go-Icon go-Icon--inverted} { height 24} { width 24} { src /images/icons/brightness_6_gm_grey_24dp.svg} { alt System theme}]>
+                  <img [{ data-value dark} { class go-Icon go-Icon--inverted} { height 24} { width 24} { src /images/icons/brightness_2_gm_grey_24dp.svg} { alt Dark theme}]>
+                  <img [{ data-value light} { class go-Icon go-Icon--inverted} { height 24} { width 24} { src /images/icons/light_mode_gm_grey_24dp.svg} { alt Light theme}]>
+                </button>
+              </li>
+            </ul>
+            <a [{ class Footer-googleLogo} { target _blank} { href https://google.com} { rel noopener}]>
+              <img [{ class Footer-googleLogoImg} { src /images/google-white.png} { alt Google logo}]>
+            </a>
+          </div>
+        </div>
+      </div>
+      <script [{ src /js/jquery.js}]>
+      <script [{ src /js/carousels.js}]>
+      <script [{ src /js/searchBox.js}]>
+      <script [{ src /js/misc.js}]>
+      <script [{ src /js/hats.js}]>
+      <script [{ src /js/playground.js}]>
+      <script [{ src /js/godocs.js}]>
+      <script [{ async } { src /js/copypaste.js}]>
+    </footer>
+    <section [{ class Cookie-notice js-cookieNotice}]>
+      <div []>
+        <a [{ target _blank} { href https://policies.google.com/technologies/cookies}]>
+        </a>
+      </div>
+      <div []>
+        <button [{ class go-Button}]>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
