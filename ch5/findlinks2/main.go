@@ -128,6 +128,7 @@ func countWordsAndImages(n *html.Node) (words, images int) {
 	} else if n.Type == html.TextNode {
 		reader := strings.NewReader(n.Data)
 		buf := bufio.NewScanner(reader)
+		buf.Split(bufio.ScanWords)
 		for buf.Scan() {
 			words++
 		}
